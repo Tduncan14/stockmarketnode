@@ -14,7 +14,9 @@ app.set('view engine','handlebars');
 
 app.get('/', function(req,res){
 
-    res.render('home');
+    res.render('home',{
+        stuff:" this is stuff"
+    });
 })
 
 const PORT  = 8080 || process.env.PORT;
