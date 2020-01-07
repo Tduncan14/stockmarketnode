@@ -1,0 +1,24 @@
+{
+  "name": "stockmarketnode",
+  "version": "1.0.0",
+  "description": "builtwithnode",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tduncan14/stockmarketnode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tduncan14/stockmarketnode/issues"
+  },
+  "homepage": "https://github.com/Tduncan14/stockmarketnode#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
